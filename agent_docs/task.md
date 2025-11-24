@@ -1,0 +1,24 @@
+# Futsal Tactics Board Application
+
+- [/] **Project Initialization** <!-- id: 0 -->
+    - [x] Initialize Next.js project with TypeScript and Tailwind CSS <!-- id: 1 -->
+    - [x] Install dependencies (`react-konva`, `konva`, `gif.js`, `lucide-react`) <!-- id: 2 -->
+    - [x] Configure basic layout and styling <!-- id: 3 -->
+- [/] **Core Feature: Board & Entities** <!-- id: 4 -->
+    - [x] Implement `TacticsBoard` component using Konva <!-- id: 5 -->
+    - [x] Draw Futsal Court background <!-- id: 6 -->
+    - [x] Create draggable Player and Ball entities <!-- id: 7 -->
+- [/] **Core Feature: State Management & Editing** <!-- id: 8 -->
+    - [x] Design data structure for Frames and Entities <!-- id: 9 -->
+    - [x] Implement `useTactics` store (Zustand or Context) <!-- id: 10 -->
+    - [x] Implement "Add Frame" and "Navigate Frames" functionality <!-- id: 11 -->
+    - [x] Implement interpolation/tweening for smooth playback preview <!-- id: 12 -->
+- [/] **Core Feature: File Operations (Local)** <!-- id: 13 -->
+    - [/] Implement JSON Export (Save) <!-- id: 14 -->
+    - [x] Implement JSON Import (Load) <!-- id: 15 -->
+- [x] **Core Feature: GIF Export** <!-- id: 16 -->
+    - [x] Implement frame capturing logic <!-- id: 17 -->
+    - [x] Integrate `gif.js` to generate GIF from captured frames <!-- id: 18 -->
+    - [x] Implement download of generated GIF <!-- id: 19 -->
+- [x] **Cloud Scalability Preparation (Design Only)** <!-- id: 20 -->
+    - [x] Document data schema for future Firestore/Database integration <!-- id: 21 -->
